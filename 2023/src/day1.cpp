@@ -4,10 +4,6 @@
 
 int partOne () {
     std::vector<std::string> lines = readFromFile("input/day1.txt");
-    std::vector<int> numbers;
-
-    int firstNum;
-    int lastNum;
 
     int total = 0;
 
@@ -49,10 +45,6 @@ int partOne () {
 
 int partTwo () {
     std::vector<std::string> lines = readFromFile("input/day1.txt");
-    std::vector<int> numbers;
-
-    int firstNum;
-    int lastNum;
 
     int total = 0;
 
